@@ -1,0 +1,20 @@
+server:
+  port: 8085
+feign:
+  okhttp:
+    enabled: true
+  sentinel:
+    enabled: true
+spring:
+  cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:8090
+      http-method-specify: true
+hm:
+  db:
+    database: hm-trade
+  swagger:
+    title: "黑马交易接口文档"
+    desc: "黑马交易接口文档"
+    package: com.hmall.trade.controller

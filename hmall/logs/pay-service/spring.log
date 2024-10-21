@@ -1,0 +1,114 @@
+18:30:04:094  INFO 21500 --- [main] com.hmall.pay.PayApplication             : The following 1 profile is active: "local"
+18:30:07:210  INFO 21500 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+18:30:07:222  INFO 21500 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+18:30:07:307  INFO 21500 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 0 Redis repository interfaces.
+18:30:08:438  INFO 21500 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=75fc52fa-6aef-38fa-b950-2070dc05ec07
+18:30:09:945  INFO 21500 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
+18:30:09:978  INFO 21500 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+18:30:09:978  INFO 21500 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+18:30:10:418  INFO 21500 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+18:30:10:419  INFO 21500 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6241 ms
+18:30:11:585  INFO 21500 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'user-service' URL not provided. Will try picking an instance via load-balancing.
+18:30:18:248  INFO 21500 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+18:30:18:418  INFO 21500 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+18:30:21:325  INFO 21500 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+18:30:21:863  INFO 21500 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 4e667cf4-5478-42b5-b1e1-325965700ac5
+18:30:21:864  INFO 21500 --- [main] com.alibaba.nacos.common.remote.client   : [4e667cf4-5478-42b5-b1e1-325965700ac5] RpcClient init label, labels = {module=naming, source=sdk}
+18:30:21:871  INFO 21500 --- [main] com.alibaba.nacos.common.remote.client   : [4e667cf4-5478-42b5-b1e1-325965700ac5] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+18:30:21:871  INFO 21500 --- [main] com.alibaba.nacos.common.remote.client   : [4e667cf4-5478-42b5-b1e1-325965700ac5] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+18:30:21:872  INFO 21500 --- [main] com.alibaba.nacos.common.remote.client   : [4e667cf4-5478-42b5-b1e1-325965700ac5] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+18:30:21:873  INFO 21500 --- [main] com.alibaba.nacos.common.remote.client   : [4e667cf4-5478-42b5-b1e1-325965700ac5] Try to connect to server on start up, server: {serverIp = '192.168.6.125', server main port = 8848}
+18:30:22:016  INFO 21500 --- [main] com.alibaba.nacos.common.remote.client   : [4e667cf4-5478-42b5-b1e1-325965700ac5] Success to connect to server [192.168.6.125:8848] on start up, connectionId = 1722076221928_192.168.6.1_50452
+18:30:22:017  INFO 21500 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [4e667cf4-5478-42b5-b1e1-325965700ac5] Notify connected event to listeners.
+18:30:22:017  INFO 21500 --- [main] com.alibaba.nacos.common.remote.client   : [4e667cf4-5478-42b5-b1e1-325965700ac5] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+18:30:22:018  INFO 21500 --- [main] com.alibaba.nacos.common.remote.client   : [4e667cf4-5478-42b5-b1e1-325965700ac5] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$470/0x000001fbd64c26e0
+18:30:22:227  INFO 21500 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path ''
+18:30:22:277  INFO 21500 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP pay-service 192.168.6.1:8086 register finished
+18:30:22:681  INFO 21500 --- [nacos-grpc-client-executor-6] com.alibaba.nacos.common.remote.client   : [4e667cf4-5478-42b5-b1e1-325965700ac5] Receive server push request, request = NotifySubscriberRequest, requestId = 3
+18:30:22:702  INFO 21500 --- [nacos-grpc-client-executor-6] com.alibaba.nacos.common.remote.client   : [4e667cf4-5478-42b5-b1e1-325965700ac5] Ack server push request, request = NotifySubscriberRequest, requestId = 3
+18:30:23:693  INFO 21500 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+18:30:23:694  INFO 21500 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+18:30:23:709  INFO 21500 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+18:30:23:825  INFO 21500 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+18:30:24:197  INFO 21500 --- [main] com.hmall.pay.PayApplication             : Started PayApplication in 29.425 seconds (JVM running for 31.23)
+18:30:24:218  INFO 21500 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=pay-service, group=DEFAULT_GROUP
+18:30:24:219  INFO 21500 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=pay-service.yaml, group=DEFAULT_GROUP
+18:30:24:220  INFO 21500 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=pay-service-local.yaml, group=DEFAULT_GROUP
+18:37:13:193  INFO 21500 --- [http-nio-8086-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:37:13:197  INFO 21500 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+18:37:13:238  INFO 21500 --- [http-nio-8086-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 41 ms
+18:37:13:570  WARN 21500 --- [http-nio-8086-exec-2] c.b.m.c.t.support.ReflectLambdaMeta      : Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @5542c4ed
+18:37:13:603  INFO 21500 --- [http-nio-8086-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+18:37:21:929  INFO 21500 --- [http-nio-8086-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+18:37:21:949 DEBUG 21500 --- [http-nio-8086-exec-1] c.h.p.mapper.PayOrderMapper.selectList   : ==>  Preparing: SELECT id,biz_order_no,pay_order_no,biz_user_id,pay_channel_code,amount,pay_type,status,expand_json,result_code,result_msg,pay_success_time,pay_over_time,qr_code_url,create_time,update_time,creater,updater,is_delete FROM pay_order WHERE (biz_order_no = ?)
+18:37:22:048 DEBUG 21500 --- [http-nio-8086-exec-1] c.h.p.mapper.PayOrderMapper.selectList   : ==> Parameters: 1817147191570530306(Long)
+18:37:22:106 DEBUG 21500 --- [http-nio-8086-exec-1] c.h.p.mapper.PayOrderMapper.selectList   : <==      Total: 0
+18:37:22:116 DEBUG 21500 --- [http-nio-8086-exec-2] c.h.p.mapper.PayOrderMapper.selectList   : ==>  Preparing: SELECT id,biz_order_no,pay_order_no,biz_user_id,pay_channel_code,amount,pay_type,status,expand_json,result_code,result_msg,pay_success_time,pay_over_time,qr_code_url,create_time,update_time,creater,updater,is_delete FROM pay_order WHERE (biz_order_no = ?)
+18:37:22:116 DEBUG 21500 --- [http-nio-8086-exec-2] c.h.p.mapper.PayOrderMapper.selectList   : ==> Parameters: 1817147216019128321(Long)
+18:37:22:119 DEBUG 21500 --- [http-nio-8086-exec-2] c.h.p.mapper.PayOrderMapper.selectList   : <==      Total: 0
+18:37:22:226 DEBUG 21500 --- [http-nio-8086-exec-2] c.h.pay.mapper.PayOrderMapper.insert     : ==>  Preparing: INSERT INTO pay_order ( id, biz_order_no, pay_order_no, biz_user_id, pay_channel_code, amount, pay_type, status, pay_over_time ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ? )
+18:37:22:233 DEBUG 21500 --- [http-nio-8086-exec-2] c.h.pay.mapper.PayOrderMapper.insert     : ==> Parameters: 1817147259220492291(Long), 1817147216019128321(Long), 1817147259220492290(Long), 1(Long), balance(String), 71800(Integer), 5(Integer), 1(Integer), 2024-07-27T20:37:22.214856100(LocalDateTime)
+18:37:22:240 DEBUG 21500 --- [http-nio-8086-exec-2] c.h.pay.mapper.PayOrderMapper.insert     : <==    Updates: 1
+18:51:54:511 DEBUG 21500 --- [http-nio-8086-exec-4] c.h.p.mapper.PayOrderMapper.selectList   : ==>  Preparing: SELECT id,biz_order_no,pay_order_no,biz_user_id,pay_channel_code,amount,pay_type,status,expand_json,result_code,result_msg,pay_success_time,pay_over_time,qr_code_url,create_time,update_time,creater,updater,is_delete FROM pay_order WHERE (biz_order_no = ?)
+18:51:54:512 DEBUG 21500 --- [http-nio-8086-exec-4] c.h.p.mapper.PayOrderMapper.selectList   : ==> Parameters: 1817147216019128321(Long)
+18:51:54:523 DEBUG 21500 --- [http-nio-8086-exec-4] c.h.p.mapper.PayOrderMapper.selectList   : <==      Total: 1
+19:24:24:201 DEBUG 21500 --- [http-nio-8086-exec-6] c.h.p.mapper.PayOrderMapper.selectList   : ==>  Preparing: SELECT id,biz_order_no,pay_order_no,biz_user_id,pay_channel_code,amount,pay_type,status,expand_json,result_code,result_msg,pay_success_time,pay_over_time,qr_code_url,create_time,update_time,creater,updater,is_delete FROM pay_order WHERE (biz_order_no = ?)
+19:24:24:202 DEBUG 21500 --- [http-nio-8086-exec-6] c.h.p.mapper.PayOrderMapper.selectList   : ==> Parameters: 1817147216019128321(Long)
+19:24:24:205 DEBUG 21500 --- [http-nio-8086-exec-6] c.h.p.mapper.PayOrderMapper.selectList   : <==      Total: 1
+19:24:44:950 DEBUG 21500 --- [http-nio-8086-exec-7] c.h.p.mapper.PayOrderMapper.selectList   : ==>  Preparing: SELECT id,biz_order_no,pay_order_no,biz_user_id,pay_channel_code,amount,pay_type,status,expand_json,result_code,result_msg,pay_success_time,pay_over_time,qr_code_url,create_time,update_time,creater,updater,is_delete FROM pay_order WHERE (biz_order_no = ?)
+19:24:44:951 DEBUG 21500 --- [http-nio-8086-exec-7] c.h.p.mapper.PayOrderMapper.selectList   : ==> Parameters: 1817159178048352258(Long)
+19:24:44:953 DEBUG 21500 --- [http-nio-8086-exec-7] c.h.p.mapper.PayOrderMapper.selectList   : <==      Total: 0
+19:24:44:954 DEBUG 21500 --- [http-nio-8086-exec-7] c.h.pay.mapper.PayOrderMapper.insert     : ==>  Preparing: INSERT INTO pay_order ( id, biz_order_no, pay_order_no, biz_user_id, pay_channel_code, amount, pay_type, status, pay_over_time ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ? )
+19:24:44:955 DEBUG 21500 --- [http-nio-8086-exec-7] c.h.pay.mapper.PayOrderMapper.insert     : ==> Parameters: 1817159182511079426(Long), 1817159178048352258(Long), 1817159182511079425(Long), 1(Long), balance(String), 71800(Integer), 5(Integer), 1(Integer), 2024-07-27T21:24:44.953727200(LocalDateTime)
+19:24:44:959 DEBUG 21500 --- [http-nio-8086-exec-7] c.h.pay.mapper.PayOrderMapper.insert     : <==    Updates: 1
+19:24:54:811 DEBUG 21500 --- [http-nio-8086-exec-8] c.h.p.mapper.PayOrderMapper.selectList   : ==>  Preparing: SELECT id,biz_order_no,pay_order_no,biz_user_id,pay_channel_code,amount,pay_type,status,expand_json,result_code,result_msg,pay_success_time,pay_over_time,qr_code_url,create_time,update_time,creater,updater,is_delete FROM pay_order WHERE (biz_order_no = ?)
+19:24:54:812 DEBUG 21500 --- [http-nio-8086-exec-8] c.h.p.mapper.PayOrderMapper.selectList   : ==> Parameters: 1817159178048352258(Long)
+19:24:54:814 DEBUG 21500 --- [http-nio-8086-exec-8] c.h.p.mapper.PayOrderMapper.selectList   : <==      Total: 1
+19:32:17:113 DEBUG 21500 --- [http-nio-8086-exec-1] c.h.p.mapper.PayOrderMapper.selectList   : ==>  Preparing: SELECT id,biz_order_no,pay_order_no,biz_user_id,pay_channel_code,amount,pay_type,status,expand_json,result_code,result_msg,pay_success_time,pay_over_time,qr_code_url,create_time,update_time,creater,updater,is_delete FROM pay_order WHERE (biz_order_no = ?)
+19:32:17:113 DEBUG 21500 --- [http-nio-8086-exec-1] c.h.p.mapper.PayOrderMapper.selectList   : ==> Parameters: 1817161032400478209(Long)
+19:32:17:114 DEBUG 21500 --- [http-nio-8086-exec-1] c.h.p.mapper.PayOrderMapper.selectList   : <==      Total: 0
+19:36:26:906 ERROR 21500 --- [com.alibaba.nacos.client.naming.updater.1] com.alibaba.nacos.common.remote.client   : Send request fail, request = ServiceQueryRequest{headers={}, requestId='null'}, retryTimes = 0, errorMessage = java.util.concurrent.TimeoutException: Waited 3000 milliseconds (plus 13 milliseconds, 197300 nanoseconds delay) for com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls$GrpcFuture@1dc3d37b[status=PENDING, info=[GrpcFuture{clientCall={delegate={delegate=ClientCallImpl{method=MethodDescriptor{fullMethodName=Request/request, type=UNARY, idempotent=false, safe=false, sampledToLocalTracing=true, requestMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@ef521bd, responseMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@3b295793, schemaDescriptor=com.alibaba.nacos.api.grpc.auto.RequestGrpc$RequestMethodDescriptorSupplier@38721386}}}}}]]
+19:36:27:467  INFO 21500 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [bc2c97cb-d5e0-4607-8cbc-10709e2c21f9_config-0] Server healthy check fail, currentConnection = 1722076203201_192.168.6.1_50435
+19:36:27:468  INFO 21500 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [bc2c97cb-d5e0-4607-8cbc-10709e2c21f9_config-0] Try to reconnect to a new server, server is  not appointed, will choose a random server.
+19:36:28:405  INFO 21500 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [4e667cf4-5478-42b5-b1e1-325965700ac5] Server healthy check fail, currentConnection = 1722076221928_192.168.6.1_50452
+19:36:28:406  INFO 21500 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [4e667cf4-5478-42b5-b1e1-325965700ac5] Try to reconnect to a new server, server is  not appointed, will choose a random server.
+19:36:29:029 ERROR 21500 --- [com.alibaba.nacos.client.naming.updater.1] com.alibaba.nacos.common.remote.client   : Send request fail, request = ServiceQueryRequest{headers={app=unknown}, requestId='null'}, retryTimes = 0, errorMessage = Client not connected, current status:UNHEALTHY
+19:36:29:144 ERROR 21500 --- [com.alibaba.nacos.client.naming.updater.1] com.alibaba.nacos.common.remote.client   : Send request fail, request = ServiceQueryRequest{headers={app=unknown}, requestId='null'}, retryTimes = 1, errorMessage = Client not connected, current status:UNHEALTHY
+19:36:29:251 ERROR 21500 --- [com.alibaba.nacos.client.naming.updater.1] com.alibaba.nacos.common.remote.client   : Send request fail, request = ServiceQueryRequest{headers={app=unknown}, requestId='null'}, retryTimes = 2, errorMessage = Client not connected, current status:UNHEALTHY
+19:36:29:983  INFO 21500 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [bc2c97cb-d5e0-4607-8cbc-10709e2c21f9_config-0] Success to connect a server [192.168.6.125:8848], connectionId = 1722080189912_192.168.6.1_53406
+19:36:29:983  INFO 21500 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [bc2c97cb-d5e0-4607-8cbc-10709e2c21f9_config-0] Abandon prev connection, server is 192.168.6.125:8848, connectionId is 1722076203201_192.168.6.1_50435
+19:36:29:985  INFO 21500 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : Close current connection 1722076203201_192.168.6.1_50435
+19:36:30:002  INFO 21500 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [bc2c97cb-d5e0-4607-8cbc-10709e2c21f9_config-0] Notify disconnected event to listeners
+19:36:30:004  INFO 21500 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [bc2c97cb-d5e0-4607-8cbc-10709e2c21f9_config-0] Notify connected event to listeners.
+19:36:30:065  WARN 21500 --- [nacos-grpc-client-executor-824] c.a.n.c.remote.client.grpc.GrpcClient    : [1722076203201_192.168.6.1_50435]Ignore error event,isRunning:true,isAbandon=true
+19:36:30:958  INFO 21500 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [4e667cf4-5478-42b5-b1e1-325965700ac5] Success to connect a server [192.168.6.125:8848], connectionId = 1722080190916_192.168.6.1_53416
+19:36:30:959  INFO 21500 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [4e667cf4-5478-42b5-b1e1-325965700ac5] Abandon prev connection, server is 192.168.6.125:8848, connectionId is 1722076221928_192.168.6.1_50452
+19:36:30:960  INFO 21500 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : Close current connection 1722076221928_192.168.6.1_50452
+19:36:30:963  INFO 21500 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [4e667cf4-5478-42b5-b1e1-325965700ac5] Notify disconnected event to listeners
+19:36:30:965  WARN 21500 --- [nacos-grpc-client-executor-810] c.a.n.c.remote.client.grpc.GrpcClient    : [1722076221928_192.168.6.1_50452]Ignore error event,isRunning:true,isAbandon=true
+19:36:30:966  INFO 21500 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [4e667cf4-5478-42b5-b1e1-325965700ac5] Notify connected event to listeners.
+19:36:30:968  INFO 21500 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [4e667cf4-5478-42b5-b1e1-325965700ac5] Server check success, currentServer is 192.168.6.125:8848 
+19:36:34:321  INFO 21500 --- [nacos-grpc-client-executor-815] com.alibaba.nacos.common.remote.client   : [4e667cf4-5478-42b5-b1e1-325965700ac5] Receive server push request, request = NotifySubscriberRequest, requestId = 77
+19:36:34:322  INFO 21500 --- [nacos-grpc-client-executor-815] com.alibaba.nacos.common.remote.client   : [4e667cf4-5478-42b5-b1e1-325965700ac5] Ack server push request, request = NotifySubscriberRequest, requestId = 77
+19:42:15:286 DEBUG 21500 --- [http-nio-8086-exec-3] c.h.p.mapper.PayOrderMapper.selectList   : ==>  Preparing: SELECT id,biz_order_no,pay_order_no,biz_user_id,pay_channel_code,amount,pay_type,status,expand_json,result_code,result_msg,pay_success_time,pay_over_time,qr_code_url,create_time,update_time,creater,updater,is_delete FROM pay_order WHERE (biz_order_no = ?)
+19:42:15:288 DEBUG 21500 --- [http-nio-8086-exec-3] c.h.p.mapper.PayOrderMapper.selectList   : ==> Parameters: 1817163541371805698(Long)
+19:42:15:291 DEBUG 21500 --- [http-nio-8086-exec-3] c.h.p.mapper.PayOrderMapper.selectList   : <==      Total: 0
+19:47:57:285 DEBUG 21500 --- [http-nio-8086-exec-5] c.h.p.mapper.PayOrderMapper.selectList   : ==>  Preparing: SELECT id,biz_order_no,pay_order_no,biz_user_id,pay_channel_code,amount,pay_type,status,expand_json,result_code,result_msg,pay_success_time,pay_over_time,qr_code_url,create_time,update_time,creater,updater,is_delete FROM pay_order WHERE (biz_order_no = ?)
+19:47:57:286 DEBUG 21500 --- [http-nio-8086-exec-5] c.h.p.mapper.PayOrderMapper.selectList   : ==> Parameters: 1817164974875820033(Long)
+19:47:57:288 DEBUG 21500 --- [http-nio-8086-exec-5] c.h.p.mapper.PayOrderMapper.selectList   : <==      Total: 0
+19:50:29:675 DEBUG 21500 --- [http-nio-8086-exec-7] c.h.p.mapper.PayOrderMapper.selectList   : ==>  Preparing: SELECT id,biz_order_no,pay_order_no,biz_user_id,pay_channel_code,amount,pay_type,status,expand_json,result_code,result_msg,pay_success_time,pay_over_time,qr_code_url,create_time,update_time,creater,updater,is_delete FROM pay_order WHERE (biz_order_no = ?)
+19:50:29:675 DEBUG 21500 --- [http-nio-8086-exec-7] c.h.p.mapper.PayOrderMapper.selectList   : ==> Parameters: 1817165615060836353(Long)
+19:50:29:677 DEBUG 21500 --- [http-nio-8086-exec-7] c.h.p.mapper.PayOrderMapper.selectList   : <==      Total: 0
+19:51:47:492  WARN 21500 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+19:51:47:492  WARN 21500 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+19:51:47:493  WARN 21500 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+19:51:47:498  WARN 21500 --- [Thread-1] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+19:51:47:846  INFO 21500 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+19:51:47:852  INFO 21500 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+19:51:48:176  INFO 21500 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+19:51:48:176  INFO 21500 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@6a0cd857[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+19:51:48:177  INFO 21500 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1722080190916_192.168.6.1_53416
+19:51:48:179  INFO 21500 --- [nacos-grpc-client-executor-1000] c.a.n.c.remote.client.grpc.GrpcClient    : [1722080190916_192.168.6.1_53416]Ignore complete event,isRunning:false,isAbandon=false
+19:51:48:179  INFO 21500 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@60f5f16d[Running, pool size = 5, active threads = 1, queued tasks = 0, completed tasks = 1000]
+19:51:48:193  INFO 21500 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+19:51:48:209  INFO 21500 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
